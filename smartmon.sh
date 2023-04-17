@@ -30,8 +30,10 @@ smartmon_attrs="$(
 airflow_temperature_cel
 command_timeout
 current_pending_sector
+ecc_error_rate
 end_to_end_error
 erase_fail_count
+erase_fail_count_total
 g_sense_error_rate
 hardware_ecc_recovered
 helium_level
@@ -43,6 +45,7 @@ load_cycle_count
 media_wearout_indicator
 nand_writes_1gib
 offline_uncorrectable
+por_recovery_count
 power_cycle_count
 power_on_hours
 pressure_limit
@@ -64,6 +67,7 @@ temperature_internal
 total_lbas_read
 total_lbas_written
 udma_crc_error_count
+uncorrectable_error_cnt
 unsafe_shutdown_count
 unused_rsvd_blk_cnt_tot
 wear_leveling_count
